@@ -1,0 +1,80 @@
+[
+  {
+    "fileName": "fileNotFound",
+    "results": [
+      "{\"orderId\":null,\"amount\":null,\"currency\":null,\"comment\":null,\"filename\":\"fileNotFound\",\"result\":\"File fileNotFound wasn't found ⊙︿⊙\",\"line\":null}"
+    ]
+  },
+  {
+    "fileName": "fileTypeUnsupported.txt",
+    "results": [
+      "{\"orderId\":null,\"amount\":null,\"currency\":null,\"comment\":null,\"filename\":\"fileTypeUnsupported.txt\",\"result\":\"Unsupported filetype\",\"line\":null}"
+    ]
+  },
+  {
+    "fileName": "readFail.json",
+    "results": [
+      "{\"orderId\":null,\"amount\":null,\"currency\":null,\"comment\":null,\"filename\":\"readFail.json\",\"result\":\"ReadingErr\",\"line\":null}"
+    ]
+  },
+  {
+    "fileName": "ok.json",
+    "results": [
+      "{\"orderId\":1234,\"amount\":10.0,\"currency\":\"USD\",\"comment\":\"оплата заказа\",\"filename\":\"ok.json\",\"result\":\"OK\",\"line\":1}"
+    ]
+  },
+  {
+    "fileName": "ok.csv",
+    "results": [
+      "{\"orderId\":1234,\"amount\":10.0,\"currency\":\"USD\",\"comment\":\"оплата заказа\",\"filename\":\"ok.csv\",\"result\":\"OK\",\"line\":1}"
+    ]
+  },
+  {
+    "fileName": "okMany.json",
+    "results": [
+      "{\"orderId\":1234,\"amount\":10.0,\"currency\":\"USD\",\"comment\":\"оплата заказа\",\"filename\":\"okMany.json\",\"result\":\"OK\",\"line\":1}",
+      "{\"orderId\":1234,\"amount\":10.5,\"currency\":\"USD\",\"comment\":\"оплата заказа\",\"filename\":\"okMany.json\",\"result\":\"OK\",\"line\":2}",
+      "{\"orderId\":1234,\"amount\":10.5,\"currency\":\"USD\",\"comment\":\"оплата заказа\",\"filename\":\"okMany.json\",\"result\":\"OK\",\"line\":3}",
+      "{\"orderId\":1234,\"amount\":10.5,\"currency\":\"USD\",\"comment\":\"оплата заказа\",\"filename\":\"okMany.json\",\"result\":\"OK\",\"line\":4}"
+    ]
+  },
+  {
+    "fileName": "okMany.csv",
+    "results": [
+      "{\"orderId\":1234,\"amount\":10.0,\"currency\":\"USD\",\"comment\":\"оплата заказа\",\"filename\":\"okMany.csv\",\"result\":\"OK\",\"line\":1}",
+      "{\"orderId\":1234,\"amount\":10.5,\"currency\":\"USD\",\"comment\":\"оплата заказа\",\"filename\":\"okMany.csv\",\"result\":\"OK\",\"line\":2}",
+      "{\"orderId\":1234,\"amount\":10.5,\"currency\":\"USD\",\"comment\":\"оплата заказа\",\"filename\":\"okMany.csv\",\"result\":\"OK\",\"line\":3}"
+    ]
+  },
+  {
+    "fileName": "orderErrs.csv",
+    "results": [
+      "{\"orderId\":null,\"amount\":10.0,\"currency\":\"USD\",\"comment\":\"оплата заказа\",\"filename\":\"orderErrs.csv\",\"result\":\"Order errs: [orderId is required field]\",\"line\":1}",
+      "{\"orderId\":1234,\"amount\":null,\"currency\":\"USD\",\"comment\":\"оплата заказа\",\"filename\":\"orderErrs.csv\",\"result\":\"Order errs: [amount is required field]\",\"line\":2}",
+      "{\"orderId\":1234,\"amount\":10.0,\"currency\":null,\"comment\":\"оплата заказа\",\"filename\":\"orderErrs.csv\",\"result\":\"Order errs: [currency is required field]\",\"line\":3}",
+      "{\"orderId\":1234,\"amount\":10.0,\"currency\":\"USD\",\"comment\":null,\"filename\":\"orderErrs.csv\",\"result\":\"Order errs: [comment is required field]\",\"line\":4}",
+      "{\"orderId\":null,\"amount\":null,\"currency\":null,\"comment\":null,\"filename\":\"orderErrs.csv\",\"result\":\"Order errs: [orderId is required field, amount is required field, currency is required field, comment is required field]\",\"line\":5}",
+      "{\"orderId\":null,\"amount\":10.0,\"currency\":\"USD\",\"comment\":\"оплата заказа\",\"filename\":\"orderErrs.csv\",\"result\":\"Order errs: [Incorrect value of field orderId]\",\"line\":6}",
+      "{\"orderId\":1234,\"amount\":null,\"currency\":\"USD\",\"comment\":\"оплата заказа\",\"filename\":\"orderErrs.csv\",\"result\":\"Order errs: [Incorrect value of field amount]\",\"line\":7}",
+      "{\"orderId\":1234,\"amount\":null,\"currency\":null,\"comment\":null,\"filename\":\"orderErrs.csv\",\"result\":\"Order errs: [amount is required field, currency is required field, comment is required field]\",\"line\":8}"
+    ]
+  },
+  {
+    "fileName": "orderErrs.json",
+    "results": [
+      "{\"orderId\":null,\"amount\":null,\"currency\":null,\"comment\":null,\"filename\":\"orderErrs.json\",\"result\":\"Order errs: [orderId is required field, amount is required field, currency is required field, comment is required field]\",\"line\":1}",
+      "{\"orderId\":null,\"amount\":10.0,\"currency\":\"USD\",\"comment\":\"оплата заказа\",\"filename\":\"orderErrs.json\",\"result\":\"Order errs: [orderId is required field]\",\"line\":2}",
+      "{\"orderId\":null,\"amount\":10.0,\"currency\":\"USD\",\"comment\":\"оплата заказа\",\"filename\":\"orderErrs.json\",\"result\":\"Order errs: [orderId is required field]\",\"line\":3}",
+      "{\"orderId\":1234,\"amount\":null,\"currency\":\"USD\",\"comment\":\"оплата заказа\",\"filename\":\"orderErrs.json\",\"result\":\"Order errs: [amount is required field]\",\"line\":4}",
+      "{\"orderId\":1234,\"amount\":null,\"currency\":\"USD\",\"comment\":\"оплата заказа\",\"filename\":\"orderErrs.json\",\"result\":\"Order errs: [amount is required field]\",\"line\":5}",
+      "{\"orderId\":1234,\"amount\":10.0,\"currency\":null,\"comment\":\"оплата заказа\",\"filename\":\"orderErrs.json\",\"result\":\"Order errs: [currency is required field]\",\"line\":6}",
+      "{\"orderId\":1234,\"amount\":10.0,\"currency\":null,\"comment\":\"оплата заказа\",\"filename\":\"orderErrs.json\",\"result\":\"Order errs: [currency is required field]\",\"line\":7}",
+      "{\"orderId\":1234,\"amount\":10.0,\"currency\":\"USD\",\"comment\":null,\"filename\":\"orderErrs.json\",\"result\":\"Order errs: [comment is required field]\",\"line\":8}",
+      "{\"orderId\":1234,\"amount\":10.0,\"currency\":\"USD\",\"comment\":null,\"filename\":\"orderErrs.json\",\"result\":\"Order errs: [comment is required field]\",\"line\":9}",
+      "{\"orderId\":null,\"amount\":10.0,\"currency\":\"USD\",\"comment\":\"оплата заказа\",\"filename\":\"orderErrs.json\",\"result\":\"Order errs: [Incorrect value of field orderId]\",\"line\":10}",
+      "{\"orderId\":1234,\"amount\":null,\"currency\":\"USD\",\"comment\":\"оплата заказа\",\"filename\":\"orderErrs.json\",\"result\":\"Order errs: [Incorrect value of field amount]\",\"line\":11}",
+      "{\"orderId\":1234,\"amount\":10.0,\"currency\":\"USD\",\"comment\":\"оплата заказа\",\"filename\":\"orderErrs.json\",\"result\":\"OK\",\"line\":12}",
+      "{\"orderId\":null,\"amount\":null,\"currency\":null,\"comment\":null,\"filename\":\"orderErrs.json\",\"result\":\"Order format err\",\"line\":13}"
+    ]
+  }
+]

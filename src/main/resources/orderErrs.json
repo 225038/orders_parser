@@ -1,0 +1,66 @@
+[
+  {},
+  {
+    "amount": 10,
+    "currency": "USD",
+    "comment": "оплата заказа"
+  },
+  {
+    "orderId": null,
+    "amount": 10,
+    "currency": "USD",
+    "comment": "оплата заказа"
+  },
+  {
+    "orderId": 1234,
+    "currency": "USD",
+    "comment": "оплата заказа"
+  },
+  {
+    "orderId": 1234,
+    "amount": null,
+    "currency": "USD",
+    "comment": "оплата заказа"
+  },
+  {
+    "orderId": 1234,
+    "amount": 10,
+    "comment": "оплата заказа"
+  },
+  {
+    "orderId": 1234,
+    "amount": 10,
+    "currency": null,
+    "comment": "оплата заказа"
+  },
+  {
+    "orderId": 1234,
+    "amount": 10,
+    "currency": "USD"
+  },
+  {
+    "orderId": 1234,
+    "amount": 10,
+    "currency": "USD",
+    "comment": null
+  },
+  {
+    "orderId": "orderId",
+    "amount": 10,
+    "currency": "USD",
+    "comment": "оплата заказа"
+  },
+  {
+    "orderId": 1234,
+    "amount": "amount",
+    "currency": "USD",
+    "comment": "оплата заказа"
+  },
+  {
+    "orderId": "1234",
+    "amount": 10,
+    "currency": "USD",
+    "comment": "оплата заказа"
+  },
+  incorrect_format
+]

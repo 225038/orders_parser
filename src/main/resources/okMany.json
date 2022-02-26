@@ -1,0 +1,28 @@
+[
+  {
+    "orderId": 1234,
+    "amount": 10,
+    "currency": "USD",
+    "comment": "оплата заказа"
+  },
+  {
+    "orderId": 1234,
+    "amount": 10.5,
+    "currency": "USD",
+    "comment": "оплата заказа"
+  },
+  {
+    "orderId": 1234,
+    "amount": 10.5,
+    "currency": "USD",
+    "comment": "оплата заказа",
+    "unknownField": "что-то лишнее пошло"
+  },
+  {
+    "orderId": 1234,
+    "amount": "10.5",
+    "currency": "USD",
+    "comment": "оплата заказа",
+    "unknownField": "что-то лишнее пошло"
+  }
+]
